@@ -1,6 +1,7 @@
-
+dpkg -i dante_1.4.2-1_amd64.deb
 
 useradd -s /usr/sbin/nologin -M socksuser
+echo Enter a password used when connecting to the proxy
 passwd socksuser
 
 touch /var/run/sockd.pid
