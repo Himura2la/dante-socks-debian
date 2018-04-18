@@ -1,5 +1,5 @@
 [Unit]
-Description=Dante Socks Proxy v1.4.1
+Description=Dante Socks Proxy
 After=network.target
 
 [Service]
